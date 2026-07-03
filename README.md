@@ -1,6 +1,21 @@
-Used Playwright for my automation tool.
-Scenarios which was included on the script was Login, Add 2 items to the cart, removed an item and tried to continue shopping and added another item.
-Then proceed to checkout but includes 2 negative path, where both first name and last name were not included and error message should appear
-Then proceed with a happy path that was able to continue shopping.
+** Installers needed
+Python 3.x
+macOS Command Line Tools (Xcode)
 
-If i were given more time, i think I would include more scenarios like Logout.
+** Playwright Test Automation Suite
+- I chose Playwright because for me I am more familiar with playwright than other tools. It is more convenient and easier to understand. Playwright is also allows you to step through scripts line-by-line and live-test your element locators. This also is more achievable since it can be tested and checked in multiple browsers at the same time.
+
+**Scenarios:
+1. Login
+2. Add Items to Cart
+3. Remove item from Cart
+4. Negative Path (Error Message Validation)
+5. Complete Shopping
+
+** UI layer vs API layer
+UI or what i did in my test automation focuses more on E2E paths, and has the frontend validation, UI layers are more on the users point of view checking while the API is more on the backend. The API layer is more on business rules and security.
+
+
+
+
+
